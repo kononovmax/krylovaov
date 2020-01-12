@@ -1,0 +1,36 @@
+.actu {
+
+	&__page {
+		background: #17075D;
+	}
+
+	&__wrap {
+		width: 916px;
+		padding: 50px 0;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: #fff;
+	}
+
+	&__img {
+		width: 292px;
+		flex-shrink: 0;
+	}
+
+	&__content {
+		width: 604px;
+	}
+
+	&__name {
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 24px;
+	}
+
+	&__text {
+		line-height: 1.5em;
+	}
+
+}

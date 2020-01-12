@@ -1,0 +1,31 @@
+.nag {
+
+	&__wrap {
+		width: 916px;
+		margin: -104px auto 84px auto;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		position: relative;
+	}
+
+	&__img {
+		width: 214px;
+		height: 294px;
+		border-radius: 8px;
+		box-shadow: 0 3px 6px rgba(0,0,0, .16);
+		margin-bottom: 20px;
+		transition: .3s;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+
+		&--hor {
+			width: 292px;
+			height: 212px;
+		}
+
+	}
+
+}

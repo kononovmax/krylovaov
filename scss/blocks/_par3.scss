@@ -1,0 +1,26 @@
+.par3 {
+
+	&__page {
+		background-color: $accent;
+		background-image: url("../img/main/par3.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		box-shadow: 0 0px 6px rgba(0,0,0, .16);
+		position: relative;
+	}
+
+	&__wrap {
+		width: 916px;
+		margin: 0 auto;
+		padding: 64px 0;
+		color: #fff;
+		line-height: 1.5em;
+	}
+
+	&__text {
+		width: 682px;
+		background: $accent;
+	}
+
+}

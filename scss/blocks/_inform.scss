@@ -1,0 +1,52 @@
+.inform {
+
+	&__page {
+		background: #fff;
+	}
+
+	&__wrap {
+		width: 916px;
+		margin: 0 auto;
+		padding: 40px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__title {
+		font-size: 36px;
+		margin-bottom: 24px;
+	}
+
+	&__subtitle {
+		font-size: 20px;
+		line-height: 1.5em;
+		max-width: 448px;
+		margin-bottom: 40px;
+	}
+
+	&__btn {
+		background: $accent;
+		border-radius: 8px;
+		box-shadow: 0 0 40px rgba(0, 168, 232, .4);
+		display: flex;
+		justify-content: space-between;
+		padding: 16px 40px;
+		width: 214px;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 500;
+		line-height: 1.5em;
+		transition: .4s;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+
+	}
+
+	&__img {
+		width: 448px;
+	}
+
+}

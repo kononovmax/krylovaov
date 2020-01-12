@@ -1,0 +1,126 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+
+// @media only screen and (max-width : 1279px)
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	position: relative;
+	overflow-x: hidden;
+	background: #FBFBFB;
+  min-width: 980px;
+  font-family: "Montserrat"
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input{
+    -webkit-box-shadow: inset 0 0 0 50px #fff;
+}
+
+  .shine{
+    position: relative;
+    overflow: hidden;
+    &:after{
+      content: "";
+      display: block;
+      width: 50px;
+      height: 300px;
+      margin-left: 60px;
+      background: rgba(255, 255, 255, .3);
+      box-shadow: 0 0 55px  rgba(255, 255, 255, .3);
+      position: absolute;
+      left: -40px;
+      top: -150px;
+      z-index: 1;
+      transform: rotate(45deg);
+      transition: all .1s;
+      animation-name: shine;
+      animation-duration: 5s;
+      animation-delay: .1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite
+    }
+
+
+    @-webkit-keyframes shine {
+      0% {
+        left: -30px;
+        margin-left: 0
+      }
+      30% {
+        left: 110%;
+        margin-left: 80px
+      }
+      100% {
+        left: 110%;
+        margin-left: 80px
+      }
+    }
+
+    @keyframes shine {
+      0% {
+
+        width: 30px;
+        left: -30px;
+        margin-left: 0
+      }
+      30% {
+        left: 110%;
+
+        width: 50px;
+        margin-left: 80px
+      }
+      100% {
+
+        width: 65px;
+        left: 110%;
+        margin-left: 80px
+      }
+    }
+  }
+
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/ped";
+@import "blocks/par1";
+@import "blocks/par2";
+@import "blocks/par3";
+@import "blocks/first";
+@import "blocks/obr";
+@import "blocks/nag";
+@import "blocks/list";
+@import "blocks/events";
+@import "blocks/glag";
+@import "blocks/links";
+@import "blocks/docs";
+@import "blocks/inform";
+@import "blocks/preim";
+@import "blocks/target";
+@import "blocks/actu";
+@import "blocks/project";
+@import "blocks/tabs";
+@import "blocks/problem";
+@import "blocks/job";
+@import "blocks/me";

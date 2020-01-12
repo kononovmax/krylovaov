@@ -1,0 +1,35 @@
+.tabs {
+
+	&__wrap {
+		width: 916px;
+		margin: 104px auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+		text-align: center;
+	}
+
+	&__num {
+		width: 80px;
+		height: 80px;
+		display: block;
+		font-size: 40px;
+		text-align: center;
+		padding-top: 12px;
+		margin: 0 auto 24px auto;
+		background: $accent;
+		border-radius: 50%;
+		box-shadow: 0 0 40px rgba(0, 168, 232, .4);
+		font-family: "Playfair Display";
+		font-weight: 700;
+		color: #fff;
+	}
+
+	&__text {
+		line-height: 1.5em;
+		font-size: 15px;
+	}
+
+}

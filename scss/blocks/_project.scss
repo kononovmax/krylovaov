@@ -1,0 +1,52 @@
+.project {
+
+	&__page {
+		background: url('../img/project/bg.jpg') no-repeat;
+		background-size: cover;
+		background-position: center;
+		padding: 64px 0;
+	}
+
+	&__wrap {
+		width: 916px;
+		margin: 0 auto;
+		background: rgba(255,255,255, .7);
+		box-shadow: 0 3px 6px rgba(0,0,0, .16);
+		border-radius: 8px;
+		padding: 24px 40px 40px 40px;
+		text-align: center;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+		font-size: 40px;
+	}
+
+	&__subtitle {
+		font-size: 20px;
+		line-height: 1.5em;
+		margin-bottom: 24px;
+	}
+
+	&__btn {
+		background: $accent;
+		border-radius: 8px;
+		box-shadow: 0 0 40px rgba(0, 168, 232, .4);
+		display: flex;
+		justify-content: space-between;
+		padding: 16px 40px;
+		width: 214px;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 500;
+		line-height: 1.5em;
+		transition: .4s;
+		margin: 0 auto;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+
+	}
+
+}

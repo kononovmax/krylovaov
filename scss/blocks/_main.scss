@@ -1,0 +1,84 @@
+.main {
+
+	&__page {
+		background: url("../img/main/bg.jpg") no-repeat;
+		background-size: cover;
+		background-position: center;
+		box-shadow: 0 3px 6px rgba(0,0,0, .16);
+	}
+
+	&__wrap {
+		width: 916px;
+		margin: 0 auto;
+		padding-bottom: 64px;
+		position: relative;
+	}
+
+	&__title {
+		margin: 0;
+		padding: 40px 0 16px 0;
+		font-size: 60px;
+		text-align: center;
+	}
+
+	&__subtitle {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	&__quote {
+		width: 677px;
+		margin-top: 60px;
+		padding: 24px;
+		line-height: 1.5em;
+		background: #fff;
+		border-radius: 5px;
+		box-shadow: 0 3px 6px rgba(0,0,0, .16);
+
+		i {
+			opacity: .6;
+		}
+
+	}
+
+	&__btn {
+		background: $accent;
+		height: 64px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-transform: uppercase;
+		font-weight: 500;
+		color: #fff;
+		border-radius: 8px;
+		box-shadow: 0 0 60px rgba(0, 168, 232, .6);
+		width: 370px;
+		text-decoration: none;
+		transition: .4s;
+
+		&:hover {
+			background: $hover;
+			transform: scale(1.1);
+		}
+
+		&--1 {
+			margin-top: 40px;
+			margin-bottom: 24px;
+		}
+
+	}
+
+	&__img {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 335px;
+		height: 468px;
+
+		img {
+			filter: drop-shadow(0 0 40px rgba(0,0,0, .16));
+		}
+
+	}
+
+}

@@ -1,0 +1,86 @@
+.first {
+
+	&__page {
+		padding-top: 64px;
+		height: 568px;
+		position: relative;
+
+		&--obrazovaniye {
+			background: url('../img/dostizheniya/bg.jpg') no-repeat;
+			background-size: cover;
+		}
+
+		&--vistupleniyau {
+			background: url('../img/vistupleniyau/bg.jpg') no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		&--vistupleniya {
+			background: url('../img/vistupleniya/bg.jpg') no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		&--nagrady {
+			background: url('../img/nagrady/bg.jpg') no-repeat;
+			background-size: cover;
+			background-position: top center;
+		}
+
+		&--diplomi {
+			background: url('../img/diplomi/bg.jpg') no-repeat;
+			background-size: cover;
+			background-position: top center;
+		}
+
+		&--events {
+			background: url('../img/events/bg.jpg') no-repeat;
+			background-size: cover;
+			background-position: top center;
+		}
+
+		&--urok {
+			background: url('../img/konspekty/bg.jpg') no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		&--vneklass {
+			background: url('../img/me/vneklass.jpg') no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: linear-gradient(rgba(250,250,250, .2) 0%, rgba(250,250,250, .2) 80%, #fbfbfb 100%);
+		}
+
+	}
+
+	&__wrap {
+		width: 604px;
+		margin: 0 auto;
+		text-align: center;
+		background: rgba(255,255,255, .9);
+		border-radius: 8px;
+		box-shadow: 0 3px 6px rgba(0,0,0, .16);
+		padding: 40px;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+	&__subtitle {
+		font-size: 20px;
+		line-height: 1.5em;
+	}
+
+}
