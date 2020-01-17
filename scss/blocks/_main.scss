@@ -24,21 +24,7 @@
 	&__subtitle {
 		text-align: center;
 		font-size: 20px;
-	}
-
-	&__quote {
-		width: 677px;
-		margin-top: 60px;
-		padding: 24px;
-		line-height: 1.5em;
-		background: #fff;
-		border-radius: 5px;
-		box-shadow: 0 3px 6px rgba(0,0,0, .16);
-
-		i {
-			opacity: .6;
-		}
-
+		margin-bottom: 240px;
 	}
 
 	&__btn {
@@ -72,8 +58,8 @@
 		position: absolute;
 		right: 0;
 		bottom: 0;
-		width: 335px;
-		height: 468px;
+		width: 368px;
+		height: 443px;
 
 		img {
 			filter: drop-shadow(0 0 40px rgba(0,0,0, .16));
